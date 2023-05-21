@@ -28,7 +28,7 @@ jobs:
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           path: README.md
-          body: "overwrite file content {{date:YYYY-MM-DD HH:mm:ss}}",
+          body: "overwrite file content {{date:YYYY-MM-DD HH:mm:ss}}"
           overwrite: 'true'
 
       # Runs a set of commands using the runners shell
