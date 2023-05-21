@@ -1,4 +1,4 @@
-name: pyt
+name: py
 
 on:
   schedule:
