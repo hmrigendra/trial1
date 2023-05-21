@@ -25,12 +25,12 @@ jobs:
 
       - name: Execute Python script
         run: |
-          python read_and_write.py
+          python tictactoe1.py
           
       - name: Commit and push
         run: |
           git config --global user.email "mrigendrahansdah2002@gmail.com"
           git config --global user.name "mrigendra"
-          git add ./README.md
+          git add ./booard.txt
           git commit -m "added file"
           git push
