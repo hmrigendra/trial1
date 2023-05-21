@@ -1,7 +1,7 @@
 # Program to show various ways to read and
 # write data in a text file.
 
-file = open("myfile.txt","w")
+file = open("README.md","w")
 L = ["This is Lagos \n","This is Python \n","This is Fcc \n"]
 
 #i assigned ["This is Lagos \n","This is Python \n","This is Fcc \n"]
@@ -16,7 +16,7 @@ file.close()
 
 
 
-file = open("myfile.txt","r+") 
+file = open("README.md","r+") 
 print("Output of the Read function is ")
 print(file.read())
 print()
