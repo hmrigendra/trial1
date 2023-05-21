@@ -25,7 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Overwrite file.txt
-        run:   uses: jaywcjlove/github-action-modify-file-content@main
+        uses: jaywcjlove/github-action-modify-file-content@main
         with:
           path: README.md
           body: "overwrite file content {{date:YYYY-MM-DD HH:mm:ss}}",
